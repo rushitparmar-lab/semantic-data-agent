@@ -96,21 +96,19 @@ Business Question → AI Agent → Multi-Source Data Retrieval → Intelligent A
 ### **Component Architecture**
 
 #### Frontend Layer
-- **Chat Interface** (`components/chat/`): Real-time streaming chat with tool execution display
-- **Dashboard** (`components/dashboard/`): Data visualization and artifact management
-- **AI Elements** (`components/ai-elements/`): Pre-built AI UI components from Vercel
-- **UI Components** (`components/ui/`): shadcn/ui design system components
+- **Chat Interface**: Real-time streaming chat with tool execution display
+- **Dashboard**: Data visualization and artifact management
 
 #### Backend Layer
-- **API Routes** (`app/api/`): Next.js API routes for AI agent endpoints
-- **MCP Integration** (`lib/mcp/`): Model Context Protocol clients and abstractions
-- **Tool Registry** (`lib/mcp/schemas/`): Centralized tool configuration and schemas
-- **Agent Tools** (`components/agent/tools/`): Enhanced business logic tools
+- **API Routes**: Next.js API routes for AI agent endpoints
+- **MCP Integration**: Model Context Protocol clients and abstractions
+- **Tool Registry**: Centralized tool configuration and schemas
+- **Agent Tools**: Enhanced business logic tools
 
 #### Data Layer
 - **External APIs**: Firecrawl for web scraping, GitHub for code analysis
-- **Databases**: Snowflake data warehouse, Supabase PostgreSQL
-- **Vector Store**: Vectorize.io for RAG knowledge base
+- **Databases**: Cloud data warehouse/ data lake, Transactional PostgreSQL
+- **Vector Store**: Knowledge base (Policy Documents, Project Documents, Sharepoint Documnets)
 - **State Management**: Local storage persistence, real-time chat state
 
 This architecture provides a scalable, performant foundation for enterprise AI applications with extensive data analysis and visualization capabilities.
