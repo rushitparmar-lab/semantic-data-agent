@@ -9,11 +9,8 @@
 
 **Watch the Semantic Data Agent in Action**
 
-<video width="100%" controls>
-  <source src="./Demo/SDA.mov" type="video/quicktime">
-  <source src="./Demo/SDA.mp4" type="video/mp4">
-  Your browser does not support the video tag. <a href="./Demo/SDA.mp4">Download the demo video</a>
-</video>
+![Semantic Data Agent Demo Preview](./Demo/SDA-preview.gif)
+
 
 *The demo showcases how business users can interact with the AI agent through natural language to query multiple data sources, generate insights, and create visualizations - all through a single conversational interface.*
 
