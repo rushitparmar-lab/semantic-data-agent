@@ -81,10 +81,10 @@ Business Question → AI Agent → Multi-Source Data Retrieval → Intelligent A
 - **🧠 AI Insights** - Proactive insights and recommendations
 
 #### **AI Model Ecosystem**
-- **🚀 GPT-5** - Advanced reasoning and complex query understanding
-- **⚡ Gemini 2.5 Flash** - Fast processing for real-time responses
-- **🎭 Claude Sonnet** - Constitutional AI for ethical and accurate analysis
-- **🧮 O1 Reasoning Models** - Deep analytical thinking for complex scenarios
+- **👤 User Assistant** - Main model communicating with user facilitating user requests and workflow execution
+- **🔍 Query Rewriter** - Assists with information retrieval from structured unstructured data sources
+- **💻 Code Generator** - Generates code (augmented with skills library) - SQL, SPARK SQL, PYTHON for data retrieval & analytics
+- **🔍 Reviewer** - Review responses, Reinforce desired model actions based on optimized policy
 
 #### **Enterprise Integration**
 - **🔄 ETL Pipelines** - Automated data extraction and transformation
