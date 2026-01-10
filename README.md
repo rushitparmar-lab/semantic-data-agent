@@ -2,7 +2,7 @@
 
 ## System Architecture Overview
 
-![Enterprise AI Data Intelligence Platform Architecture](./Architecture/SemanticDataAgent.png)
+![Enterprise AI Data Intelligence Platform Architecture](./Architecture/SDA.png)
 
 ## Platform Demo
 
